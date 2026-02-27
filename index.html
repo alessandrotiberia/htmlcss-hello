@@ -19,21 +19,28 @@ Continuare  in modo incrementale fino allo sviluppo completo del layout proposto
 <body>
     <main> <!--contenuto principale quindi titolo ecc-->
         <header> <!--intestazione della pagina-->
-            <h1>Una giornata al museo</h1> 
+            <h1>Una giornata al museo</h1>
         </header>
 
         <section> <!--sezione quadro titolo e img -->
             <h2>1. Il dipinto che mi ha colpito di più</h2>
-            <img src="./img/quadro.png" alt="quadro che mi ha colpito di più essendo un'opera affascinante">
-
-            <p> Un'opera d'arte affascinante vista nella galleria principale.</p>
-            <p>Questo dipinto mi ha catturato per i suoi colori intensi e per l'espressione del volto del personaggio raffigurato.È come se raccontasse una storia senza parole.</p>
+            <figure> serve a collegare semanticamente immagine e didascalia.
+                <img src="./img/quadro.png" alt="quadro che mi ha colpito di più essendo un'opera affascinante">
+                <!--Ho inserito figcaption perchè serve per dare didascalia sotto la foto come da esercizio.-->
+                <figcaption> Un'opera d'arte affascinante vista nella galleria principale.</figcaption>
+            </figure>
+            <p>Questo dipinto mi ha catturato per i suoi colori intensi e per l'espressione del volto del personaggio
+                raffigurato.È come se raccontasse una storia senza parole.</p>
         </section>
+
         <section>
             <h2>2. Un'antica struttura</h2>
-            <img src="./img/scultura.png" alt="scultura romana in marmo">
-            <p>Scultura romana in marmo esposta nella sala archeologica.</p>
-            <p>La scultura era alta quasi due metri e mostrava un antico guerriero romano. I dettagli del viso e dell'armatura eramo incredibilmente realistici.</p>
+            <figure> <!--serve a collegare semanticamente immagine e didascalia.-->
+                <img src="./img/scultura.png" alt="scultura romana in marmo">
+                <figcaption>Scultura romana in marmo esposta nella sala archeologica.</figcaption> <!--Ho inserito figcaption perchè serve per dare didascalia sotto la foto come da esercizio.-->
+            </figure>
+                <p>La scultura era alta quasi due metri e mostrava un antico guerriero romano. I dettagli del viso e
+                dell'armatura eramo incredibilmente realistici.</p>
         </section>
 
         <section>
